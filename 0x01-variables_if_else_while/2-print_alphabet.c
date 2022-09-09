@@ -13,5 +13,6 @@ int main(void)
 	{
 		putchar(alp[i]);
 	}
+	purchar("\");
 	return (0);
 }
