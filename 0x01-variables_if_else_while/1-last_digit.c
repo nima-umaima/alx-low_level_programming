@@ -2,13 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - f the last digit of n is greater than 5
- * Return: 0 (Success)
+ * main - Determine if the last digit of a random number is
+ * greater than or less than 5, or is zero..
+(*
+ * Return: 0 on success
  */
 int main(void)
 {
 	int n;
-	char last[] = "Last digit";
+	char last[] = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
