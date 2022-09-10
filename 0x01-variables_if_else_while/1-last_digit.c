@@ -5,11 +5,11 @@
 /**
 * main - Determines either greater than 5, is less than 6, or is 0
 *
-*Return: 0 (success)
+* Return: 0 (success)
 */
 int main(void)
 {
-	int n, 1;
+	int n, l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
