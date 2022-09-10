@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * main - Entry point
  *
@@ -7,6 +8,21 @@
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
+	char l;
+
+	l = 'a';
+	while (l <= 'z')
+	{
+		if ((l != 'e') && (l != 'q'))
+		{
+			putchar(l);
+			l++;
+		}
+		else
+		{
+			l++;
+		}
+	}
+	putchar('\n');
 	return (0);
 }
