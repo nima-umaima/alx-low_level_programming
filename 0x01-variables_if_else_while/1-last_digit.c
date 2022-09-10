@@ -28,3 +28,22 @@ int main(void)
 	}
 	return (0);
 }
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* more headers goes there */
+
+/**
+* main - Determines either greater than 5, is less than 6, or is 0
+*
+*Return: 0 (success)
+*/
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	return (0);
+}
