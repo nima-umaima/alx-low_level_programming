@@ -1,13 +1,10 @@
-#include <stdio.h>
-
+#include "main.h
 /**
- *
- *main - main
- *
- * Return: 0
+ *main - print aplhabets in lowercase
+ * Return: Always 0(Success)
  */
 int main(void)
 {
-  print_aphabet();
-  return(0);
+print_aphabet();
+return(0);
 }
