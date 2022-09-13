@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-print_aphabet();
+print_alphabet();
 return(0);
 }
