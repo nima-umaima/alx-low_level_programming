@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - print alphabet in lowercase
  * Return: 0
  */
-int main (void)
+void print_alphabet(void)
 {
   char c;
   for(c = 'a'; c <= 'z'; c++)
@@ -11,5 +12,4 @@ int main (void)
       putchar(c);
     }
   putchar('\n');
-  return(0);
 }
