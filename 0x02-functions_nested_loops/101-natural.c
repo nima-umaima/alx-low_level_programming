@@ -17,7 +17,7 @@ for (f = 0; f <= (1024 / 5); f++)
 if (!(f % 3 == 0))
 {
 fm = 5 * f;
-s = s + fm ;
+s = s + fm;
 }
 }
 printf("%i\n", s);
