@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - natural numbers multiple of 30r 5 to 1024
+ * main - natural numbers multiple of 3 or 5 to 1024
  * Return: Always 0;
  */
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
     {
       if (!(f % 3 == 0))
 	{
-	  fm = 5 * fm;
+	  fm = 5 * f;
 	  s = s + fm ;
 	}
     }
