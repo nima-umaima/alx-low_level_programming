@@ -3,7 +3,7 @@
  * times_table - prints the times table up to 9
  * Return: Always 0
  */
-void main(void)
+void time_table(void)
 {
   int a, b, c, d, e;
   for (a = 0; a < 10; a++)
