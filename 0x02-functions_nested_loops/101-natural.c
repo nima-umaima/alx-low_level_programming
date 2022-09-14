@@ -16,10 +16,10 @@ int main(void)
     {
       if (!(f % 3 == 0))
 	{
-	  fm = 5 * m;
+	  fm = 5 * fm;
 	  s = s + fm ;
 	}
     }
   printf("%i\n", s);
-  rerturn (0);
+  return (0);
 }
