@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-ong int a, b, c, d;
+long int a, b, c, d;
 a = 1;
 b = 2;
 c = 3;
