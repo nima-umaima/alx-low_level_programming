@@ -3,7 +3,7 @@
 /**
  * mul - Multiply 2 numbers
  *@a: number being tested
- *@B: number being tested
+ *@b: number being tested
  * Return: Always 0
  */
 int mul(int a, int b)
