@@ -4,7 +4,7 @@
  * print triangle
  * Return: Always 0
  */
-void print_triangle(void)
+void print_triangle(int size)
 {
 int x;
 int y;
