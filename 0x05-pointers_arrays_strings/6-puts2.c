@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * puts - prints only one character out of two
+ * puts2 - prints only one character out of two
  * @str: input
  * Return: print
  */
-void puts(char *str)
+void puts2(char *str)
 {
 int n = 0;
 for (; str[n] != '\0'; n++)
