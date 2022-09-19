@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+ * print_aaray - prints elements of array of integers
+ * @a: array name
+ * @n: array length
+ * Return: a and n inputs
+ */
+void print_array(int *a, int n)
+{
+int i;
+for (i = 0; i < (n-1); i++)
+printf("%d, ", a[i]);
+if (i == (n-1))
+pritnf("%d", a[n - 1]);
+return ("\n");
+}
