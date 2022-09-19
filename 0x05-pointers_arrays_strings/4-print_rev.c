@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * print_rev - Prints a string in reverse.
- *@str: strint to be reversed
+ * fcounter is to first count to end, n is to count back
+ * @s: str input
+ * Return: string in reverse
  */
 void print_rev(char *s)
 {
