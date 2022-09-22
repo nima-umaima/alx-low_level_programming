@@ -1,12 +1,24 @@
 #inlcude "main.h"
 /**
  * _strncopy - copies a string
- *@dest: string to copy by src
- *@src: string to copy to
- *@n:
+ *@dest: string to copy to
+ *@src: string to copy
+ *@n: largest number of bytes to copy
  * Return: dest
  */
-char *_strncpy()
+char *_strncpy(char *dest, char *src, int n)
 {
-  return (dest);
+int i;
+i = 0;
+while (i < n && *(src + i))
+{
+*(dest + i) = *(src + i);
+i++;
+}
+while (i < n)
+{
+*(dest + i) = '\0';
+i++;
+}
+return (dest);
 }
