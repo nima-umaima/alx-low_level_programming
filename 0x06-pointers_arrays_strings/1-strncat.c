@@ -6,7 +6,7 @@
  *@n: largest number of bytwss to append
  * Return: dest
  */
-char *_strncat(cat *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i, j;
 i = j = 0;
