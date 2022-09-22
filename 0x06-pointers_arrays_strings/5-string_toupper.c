@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * string - changes lower case to upper case
  *@s: string to change
