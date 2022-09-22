@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * _strcat - concatinates two strings
  *@dest: string to append to src
@@ -14,6 +14,6 @@ i++;
 while ((*(dest + i) = *(src + j)))
 {
 i++;
-j+}
+j++;}
 return (dest);
 }
