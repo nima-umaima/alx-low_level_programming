@@ -14,6 +14,7 @@ i++;
 while ((*(dest + i) = *(src + j)))
 {
 i++;
-j++;}
+j++;
+}
 return (dest);
 }
