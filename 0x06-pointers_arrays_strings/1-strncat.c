@@ -12,10 +12,11 @@ int i, j;
 i = j = 0;
 while (*(dest + i))
 i++;
-while(j < n && *(src +j))
+while (j < n && *(src + j))
 {
 *(dest + i) = *(src + j);
 i++;
 j++;
 }
-return (dest);}
+return (dest);
+}
