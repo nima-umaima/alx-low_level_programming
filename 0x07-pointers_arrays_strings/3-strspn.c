@@ -25,5 +25,6 @@ if (accept[j] == '\0')
 {
 return (count);
 }
+}
 return (count);
 }
