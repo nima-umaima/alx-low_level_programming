@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memcpy - copies memory area
+ * _memcpy - fnct to copy memory content source to a char destination
  *@dest: memory to copy to
  *@src: memory to copy form
  *@n: content in byte to copy
