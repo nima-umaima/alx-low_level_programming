@@ -21,3 +21,4 @@ return (src);
 haystack = src + 1;
 }
 return (0);
+}
