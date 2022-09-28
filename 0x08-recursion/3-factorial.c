@@ -1,9 +1,22 @@
 #include "main.h"
 /**
- * fun -
- *@n:
- * Return:
+ * factorial - print factorial
+ *@n: number
+ * Return: factor of number
  */
-int()
+int factorial(int n)
 {
+if (n == 0)
+{
+return (0);
+}
+if (n == 1)
+{
+return (1);
+}
+if (n < 0)
+{
+return (-1);
+}
+return (n * factorial(n - 1));
 }
