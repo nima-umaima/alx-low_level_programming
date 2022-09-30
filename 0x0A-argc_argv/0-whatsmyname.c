@@ -1,23 +1,13 @@
-#include <stdlib.h>
+#include <stdlio.h>
 /**
- * create_array - creates and initializes an array of chars with char c
- *@size: size of the array
- *@c: char to initialize the array with
- * Return: pointer to the array of char
+ * main - program prints its own name.
+ *@argc: argument count
+ *@argv: argument vectors
+ * Return: 0 on success
  */
-char *create_array(unsigned int size, char c)
+int main(int argc, char *argv[])
 {
-char *p;
-unsigned int i;
-if (size > 0)
-{
-p = malloc(size * sizeof(char));
-if (p == NULL)
-return (NULL);
-}
-else
-return (NULL);
-for (i = 0; i < size; i++)
-p[i] = c;
-return (p);
+argc--; 
+printf("%s\n", argv[0]);
+return (0);
 }
