@@ -1,4 +1,3 @@
-#inlude "main.h"
 #include <stdio.h>
 /**
 * main - prints all arguments it recieves
@@ -6,7 +5,7 @@
 *@argv: argument vector of pointers to strings
 * Return: always 0
 */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
 int i;
 for (i = 0; i < argc; i++)
