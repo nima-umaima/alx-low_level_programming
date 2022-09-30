@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-*
-*
-*
-*
+* main - Write a program that multiplies two numbers.
+*@argc: size of argv.
+*@argv: a pointer to an array containing the program line arguments.
+* Return: 0.
 */
 int main(int argc, char *argv[])
 {
