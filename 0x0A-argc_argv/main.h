@@ -1,4 +1,4 @@
-#indef _MAIN_
+#ifndef _MAIN_
 #define _MAIN_
 int _putchar(char c);
 int is_integer(const char *str);
