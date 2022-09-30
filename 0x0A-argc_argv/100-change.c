@@ -12,7 +12,7 @@ int a, n = 0, i, t;
 int c[5] = {25, 10, 5, 2, 1};
 if (argc != 2)
 {
-puts("Error")
+puts("Error");
 return (1);
 }
 a = atoi(argv[1]);
