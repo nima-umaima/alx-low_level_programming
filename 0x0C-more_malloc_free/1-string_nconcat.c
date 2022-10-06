@@ -4,6 +4,7 @@
  * string_nconcat - concatinates two strings
  *@s1: string to concatinate to
  *@s2: string to concatinate
+ *@n: number of bytes of s2 to copy
  * Return: pointed to allocated space
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
