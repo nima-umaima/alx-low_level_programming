@@ -28,7 +28,7 @@ if (j > n)
 j = n;
 s = malloc(sizeof(char) * (i + j + 1));
 if (s == NULL)
-return (NULL)
+return (NULL);
 for (k = 0; k < i; k++)
 s[k] = s1[k];
 for (k = 0; k < j; k++)
