@@ -18,11 +18,11 @@ op_t ops[] = {
 };
 int i;
 i = 0;
-while (opt[i].op != NULL)
+while (ops[i].op != NULL)
 {
 if (strcmp(s, ops[i].op) == 0)
 break;
-i++ 
+i++;
 }
 return (ops[i].f);
 }
