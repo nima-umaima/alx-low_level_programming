@@ -19,7 +19,7 @@ return (a + b);
 */
 int op_sub(int a, int b)
 {
-return (b - a);
+return (a - b);
 }
 /**
 * op_mul - multiplies a and b
@@ -29,7 +29,7 @@ return (b - a);
 */
 int op_mul(int a, int b)
 {
-return (b * a);
+return (a * b);
 }
 /**
 * op_div - divides a by b
@@ -44,7 +44,7 @@ if (b == 0)
 printf("Error\n");
 return (100);
 }
-return (b / a);
+return (a / b);
 }
 /**
 * op_div - dreminder of a by b
@@ -59,5 +59,5 @@ if (b == 0)
 printf("Error\n");
 return (100);
 }
-return (b % a);
+return (a % a);
 }
