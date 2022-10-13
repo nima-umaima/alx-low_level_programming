@@ -59,5 +59,5 @@ if (b == 0)
 printf("Error\n");
 return (100);
 }
-return (a % a);
+return (a % b);
 }
