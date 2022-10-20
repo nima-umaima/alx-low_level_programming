@@ -28,5 +28,5 @@ return (-1);
 va_start(arg_list, format);
 printed_char = parser(format, f_list, arg_list);
 va_end(arg_list);
-return (printed_chars);
+return (printed_char);
 }
