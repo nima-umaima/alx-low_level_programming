@@ -28,7 +28,7 @@ int _printf(const char *format, ...)
 			/* write(1, &format[i], 1);*/
 			printed_chars++;
 		}
-		else
+		/**else
 		{
 			print_buffer(buffer, &buff_ind);
 			flags = get_flags(format, &i);
@@ -41,7 +41,7 @@ int _printf(const char *format, ...)
 			if (printed == -1)
 				return (-1);
 			printed_chars += printed;
-		}
+		}*/
 	}
 
 	print_buffer(buffer, &buff_ind);
