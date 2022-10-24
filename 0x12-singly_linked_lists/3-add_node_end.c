@@ -33,7 +33,7 @@ if (new->str == NULL)
 free(new);
 return (NULL);
 }
-return (NULL);
+new->len = _strlen(new->str);
 new->next = NULL;
 if (*head == NULL)
 {
