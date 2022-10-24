@@ -1,6 +1,9 @@
 #ifndef _LISTS_H_
 #define _LISTS_H_
 #include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
+int _putchar(char c);
 /**
 * struct list_s - singly linked list
 *@str: string - (malloc'ed string)
