@@ -6,21 +6,15 @@
 */
 size_t print_list(const list_t *h)
 {
-unsigned int count = 0;
-const list_t *tmp;
-tmp = h;
-while (tmp != NULL)
+size_t nodes = 0;
+while (h)
 {
-if (tmp->str)
-{
-printf("[%u] %s\n", tmp->len, tmp->str);
-}
+if (h->str == NULL)
+printf("[0] (nil)\n");
 else
-{
-printf("[%u] %s\n", 0, "(nil)");
+printf("[%d] %s\n", h->len, h->str);
+nodes++;
+h = h->next;
 }
-tmp = tmp->next;
-count++;
-}
-return (count);
+return (nodes);
 }
