@@ -11,6 +11,7 @@ int _putchar(char c);
 *@next: points to the next node
 * 
 * Description: singly linked list node structure
+* for singly linked list project
 */
 typedef struct list_s
 {
