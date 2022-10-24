@@ -2,7 +2,7 @@ global 	main
 global 	main
 global 	main
 main:
-mov	rdi, format
+mov	rdi, message
 mov	rax, 0
 call	printf
 mov	rax, 0
