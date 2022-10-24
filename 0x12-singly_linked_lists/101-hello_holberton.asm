@@ -1,6 +1,5 @@
-global 	main
-global 	main
-global 	main
+global	main
+extern	printf
 main:
 mov	rdi, message
 mov	rax, 0
