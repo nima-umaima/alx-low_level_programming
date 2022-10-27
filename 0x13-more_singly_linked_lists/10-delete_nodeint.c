@@ -24,7 +24,7 @@ current = *head;
 for (i = 0; i < index - 1; i++)
 {
 if (current->next == NULL)
-return (-1)
+return (-1);
 current = current->next;
 }
 next = current->next;
